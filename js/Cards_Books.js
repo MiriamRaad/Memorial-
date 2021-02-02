@@ -2,7 +2,7 @@
 
 function YA_B()
 {
-    fetch('http://localhost:3000/YA_Books')
+    fetch('https://memorial-books-data.herokuapp.com/YA_Books')
          .then(response => response.json())
          .then(json => 
             {  
@@ -32,7 +32,7 @@ YA_B();
 
 function S_B()
 {
-    fetch('http://localhost:3000/S_Books')
+    fetch('https://memorial-books-data.herokuapp.com/S_Books')
          .then(response => response.json())
          .then(json => 
             {
